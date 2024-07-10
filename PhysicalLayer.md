@@ -76,5 +76,14 @@ T568B &larr;&rarr; T568A
 
 **Layer 1 (Physical Layer) Devices:** Hubs & End Devices
 
-**Hub** is a Broadcasting Device
-Half Duplex Device (Both sending and receiving of data is not possible simultaneously)
+### Hub - Layer 1 Device (Physical Layer)
+
+- It is a Broadcasting Device
+- Half Duplex Device (Both sending and receiving of data is not possible simultaneously)
+
+### Switch - Layer 2 Device (Data-link Layer)
+
+- It is a Uni-casting Device
+- Full Duplex Device (Both sending and receiving of data is possible simultaneously)
+- Data-link &rarr; MAC Address (Media Access Control Address)
+- `getmac` &rarr; To get MAC address of all ports in the device.
