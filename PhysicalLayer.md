@@ -81,9 +81,10 @@ T568B &larr;&rarr; T568A
 - It is a Broadcasting Device
 - Half Duplex Device (Both sending and receiving of data is not possible simultaneously)
 
-### Switch - Layer 2 Device (Data-link Layer)
+### Repeater
 
-- It is a Uni-casting Device
-- Full Duplex Device (Both sending and receiving of data is possible simultaneously)
-- Data-link &rarr; MAC Address (Media Access Control Address)
-- `getmac` &rarr; To get MAC address of all ports in the device.
+-Recommended length for Ethernet is 100 mts.
+
+- Repeaters are used when the length between source and destination is > 100 mts.
+- Repeaters placed at every 100 mts distance, repeats the signals and sends further
+- These are Layer 01 Devices
